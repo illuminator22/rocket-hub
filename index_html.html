@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Exploration | Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main navigation bar -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <h1 class="logo">🚀 ROCKET HUB <span class="by-line">By Ivan Arshakyan</span></h1>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="rockets.html">Rockets</a></li>
+                <li><a href="missions.html">Missions</a></li>
+                <li><a href="future.html">Future</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero section with the main image -->
+    <section class="hero">
+        <img src="F9_Launch.jpg" alt="Falcon 9 rocket launching into space" class="hero-image" loading="eager">
+        <div class="hero-overlay">
+            <h2>Welcome to the New Era of Space Exploration</h2>
+            <p>Discover the rockets that are taking humanity to the stars</p>
+        </div>
+    </section>
+
+    <!-- Introduction section -->
+    <main class="content-container">
+        <section class="intro-section">
+            <h2>The Dawn of Reusable Rocketry</h2>
+            <p>
+                We are living in an extraordinary time for space exploration. Companies like SpaceX and agencies 
+                like NASA are revolutionizing how we reach space, making it more accessible and sustainable than 
+                ever before. Through innovative engineering and bold vision, modern rockets are not only reaching 
+                orbit but returning home to fly again.
+            </p>
+            <p>
+                From the powerful Falcon Heavy to the ambitious Starship program, these incredible machines represent 
+                humanity's determination to become a spacefaring civilization. Each launch brings us closer to 
+                establishing a permanent presence beyond Earth.
+            </p>
+        </section>
+
+        <!-- Quick facts section -->
+        <section class="facts-grid">
+            <div class="fact-card">
+                <h3>200+</h3>
+                <p>Successful Falcon 9 Landings</p>
+            </div>
+            <div class="fact-card">
+                <h3>400+</h3>
+                <p>Total SpaceX Launches</p>
+            </div>
+            <div class="fact-card">
+                <h3>2002</h3>
+                <p>SpaceX Founded</p>
+            </div>
+        </section>
+
+        <!-- Using the template element to store reusable content -->
+        <template id="rocket-card-template">
+            <div class="rocket-preview">
+                <h4></h4>
+                <p></p>
+            </div>
+        </template>
+
+        <!-- Brief overview linking to other pages -->
+        <section class="overview-section">
+            <h2>Explore More</h2>
+            <div class="overview-grid">
+                <article class="overview-card">
+                    <h3>Modern Rockets</h3>
+                    <p>Learn about the cutting-edge rockets from SpaceX and NASA that are reshaping space travel</p>
+                    <a href="rockets.html" class="btn-link">View Rockets →</a>
+                </article>
+                <article class="overview-card">
+                    <h3>Historic Missions</h3>
+                    <p>Explore the groundbreaking missions that have advanced our understanding of space</p>
+                    <a href="missions.html" class="btn-link">See Missions →</a>
+                </article>
+                <article class="overview-card">
+                    <h3>What's Next</h3>
+                    <p>Discover the ambitious plans for lunar bases, Mars colonization, and beyond</p>
+                    <a href="future.html" class="btn-link">Future Plans →</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="site-footer">
+        <p>&copy; 2024 Rocket Hub | Educational Project</p>
+        <p>Data sourced from NASA and SpaceX public information</p>
+    </footer>
+
+    <!-- Using noscript to show message if JavaScript is disabled -->
+    <noscript>
+        <div class="noscript-warning">
+            Some interactive features require JavaScript to be enabled.
+        </div>
+    </noscript>
+</body>
+</html>
