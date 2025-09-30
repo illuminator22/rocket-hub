@@ -1,25 +1,25 @@
 Unique HTML Elements Used
 
-<template> Element
+template Element
 
 Location: index.html, line 76
 What it is: A mechanism for holding HTML that is not rendered when the page loads but can be instantiated later using JavaScript
 How I'm using it: Created a reusable template for rocket preview cards that could be populated dynamically if needed
 MDN Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template
 
-<noscript> Element
+noscript Element
 
 Location: All HTML files (bottom of each page)
 What it is: Defines alternative content to display when JavaScript is disabled or not supported
 How I'm using it: Showing a warning message to users if JavaScript is turned off in their browser
 MDN Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript
 
-<caption> Element
-
+caption Element
 Location: rockets.html
 What it is: Specifies the title/caption of a table
 How I'm using it: Providing clear titles for the rocket specification tables to improve accessibility and readability
 MDN Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption
+
 -----------------------------------------
 
 Unique HTML Attributes Used 
